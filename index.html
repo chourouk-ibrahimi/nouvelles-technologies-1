@@ -17,7 +17,7 @@
     <!-- Header avec photo et titre h1 centrés -->
     <header>
         <div class="header-content">
-            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=400&fit=crop" alt="Technologies">
+            <img src="chouroukibrahimi.png" alt="Technologies">
             <h1>💻 Les Nouvelles Technologies</h1>
             <p class="subtitle">Explorez l'innovation qui façonne notre avenir</p>
         </div>
@@ -195,12 +195,18 @@
                 Passionné par les nouvelles technologies ? Restons connectés !
             </p>
             
+            <div class="contact-info">
+                <p class="email-display">
+                    ✉️ Email : <a href="mailto:chourouk.ibrahimi@esi.ac.ma" class="email-link">chourouk.ibrahimi@esi.ac.ma</a>
+                </p>
+            </div>
+            
             <div class="btn-container">
                 <a href="#" class="btn btn-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
                     ⬆️ Retour en haut
                 </a>
                 
-                <a href="mailto:contact@nouvellestechnologies.com" class="btn btn-email">
+                <a href="mailto:chourouk.ibrahimi@esi.ac.ma" class="btn btn-email">
                     📧 Envoyez un message
                 </a>
             </div>
@@ -690,6 +696,35 @@
             font-weight: 600;
         }
         
+        .contact-info {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .email-display {
+            font-size: 1.3em;
+            color: #333;
+            padding: 25px;
+            background: linear-gradient(135deg, #e0f7ff 0%, #f0f9ff 100%);
+            border-radius: 15px;
+            border-left: 5px solid #0077b6;
+            box-shadow: 0 5px 20px rgba(0, 119, 182, 0.1);
+            display: inline-block;
+        }
+        
+        .email-link {
+            color: #00b4d8;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        
+        .email-link:hover {
+            color: #0077b6;
+            border-bottom: 2px solid #0077b6;
+        }
+        
         /* Footer moderne */
         footer {
             background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%);
@@ -706,40 +741,3 @@
             font-weight: 700;
             margin: 25px 0;
             padding: 25px;
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 20px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-            border: 2px solid rgba(0, 230, 118, 0.4);
-            color: #00e676;
-            backdrop-filter: blur(10px);
-        }
-        
-        .footer-tagline {
-            color: white;
-            margin: 20px 0;
-            font-size: 1.2em;
-            font-weight: 300;
-        }
-        
-        .ascii-art {
-            font-family: 'Courier New', monospace;
-            font-size: 0.9em;
-            color: #00e676;
-            text-shadow: 0 0 15px rgba(0, 230, 118, 0.6);
-            margin-top: 30px;
-            overflow-x: auto;
-            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
-        }
-        
-        /* Responsive */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5em;
-                padding: 20px 30px;
-            }
-            
-            section {
-                padding: 30px 25px;
-            }
-            
-            section h2
